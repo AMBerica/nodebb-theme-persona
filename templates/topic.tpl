@@ -20,6 +20,10 @@
 
 		<hr class="visible-xs" />
 
+		<!-- IF !posts.index -->
+		<div class="post-bar-placeholder"></div>
+		<!-- ENDIF !posts.index -->		
+
 		<ul component="topic" class="posts" data-tid="{tid}" data-cid="{cid}">
 			<!-- BEGIN posts -->
 				<li component="post" class="<!-- IF posts.deleted -->deleted<!-- ENDIF posts.deleted -->" <!-- IMPORT partials/data/topic.tpl -->>
@@ -29,9 +33,6 @@
 					<meta itemprop="dateModified" content="{posts.editedISO}">
 
 					<!-- IMPORT partials/topic/post.tpl -->
-					<!-- IF !posts.index -->
-					<div class="post-bar-placeholder"></div>
-					<!-- ENDIF !posts.index -->
 				</li>
 			<!-- END posts -->
 		</ul>
