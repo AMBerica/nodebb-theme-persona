@@ -18,11 +18,11 @@
 
 		<div component="topic/deleted/message" class="alert alert-warning<!-- IF !deleted --> hidden<!-- ENDIF !deleted -->">[[topic:deleted_message]]</div>
 
-		<hr class="visible-xs" />
-
 		<!-- IF !posts.index -->
 		<div class="post-bar-placeholder"></div>
-		<!-- ENDIF !posts.index -->		
+		<!-- ENDIF !posts.index -->	
+
+		<hr class="visible-xs" />	
 
 		<ul component="topic" class="posts" data-tid="{tid}" data-cid="{cid}">
 			<!-- BEGIN posts -->
