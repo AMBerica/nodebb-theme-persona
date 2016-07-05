@@ -2,8 +2,12 @@
 
 <div class="row">
 	<!-- IF allowLocalLogin -->
+
 	<div class="<!-- IF alternate_logins -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF alternate_logins -->">
 		<div class="well well-lg">
+			<h2>ATTN: AMB Classic Users!</h2>
+			<div>If you are an <b>old user of AMB</b> and this screen looks new to you, then <b>you probably need to reset your password</b>. Click the "Forgot Password?" link below and the email instructions will be sent to you. If your email address wasn't valid or the link doesn't work then you can email me at max@amb.la.</div>
+
 			<div class="alert alert-danger" id="login-error-notify" <!-- IF error -->style="display:block"<!-- ELSE -->style="display: none;"<!-- ENDIF error -->>
 				<button type="button" class="close" data-dismiss="alert">&times;</button>
 				<strong>[[login:failed_login_attempt]]</strong>
@@ -60,3 +64,4 @@
 	</div>
 	<!-- ENDIF alternate_logins -->
 </div>
+

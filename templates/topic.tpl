@@ -18,9 +18,7 @@
 
 		<div component="topic/deleted/message" class="alert alert-warning<!-- IF !deleted --> hidden<!-- ENDIF !deleted -->">[[topic:deleted_message]]</div>
 
-		<!-- IF !posts.index -->
 		<div class="post-bar-placeholder"></div>
-		<!-- ENDIF !posts.index -->	
 
 		<hr class="visible-xs" />	
 
